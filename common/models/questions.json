@@ -1,0 +1,39 @@
+{
+  "name": "questions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "paperID": {
+      "type": "number",
+      "required": true
+    },
+    "questionID": {
+      "type": "number",
+      "required": true
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answers": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "correctAnswer": {
+      "type": "number",
+      "required": true
+    },
+    "lesson": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

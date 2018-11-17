@@ -1,0 +1,10 @@
+user:
+kalana
+pw:
+zrv8K532yfZJK4ns
+
+quizeez:
+
+mongodb+srv://kalana:zrv8K532yfZJK4ns@cluster0-qonrq.mongodb.net/test?retryWrites=true
+
+mongodb://kalana:zrv8K532yfZJK4ns@cluster0-shard-00-00-qonrq.mongodb.net:27017,cluster0-shard-00-01-qonrq.mongodb.net:27017,cluster0-shard-00-02-qonrq.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true
