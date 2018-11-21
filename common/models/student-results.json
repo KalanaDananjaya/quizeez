@@ -1,0 +1,28 @@
+{
+  "name": "studentResults",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "studentID": {
+      "type": "number",
+      "required": true
+    },
+    "paperID": {
+      "type": "number",
+      "required": true
+    },
+    "markedAnswers": {
+      "type": [
+        "boolean"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

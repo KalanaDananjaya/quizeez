@@ -54,5 +54,9 @@
   "papers": {
     "dataSource": "mongoatlas",
     "public": true
+  },
+  "studentResults": {
+    "dataSource": "mongoatlas",
+    "public": true
   }
 }
