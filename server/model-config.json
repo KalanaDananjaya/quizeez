@@ -58,5 +58,13 @@
   "studentResults": {
     "dataSource": "mongoatlas",
     "public": true
+  },
+  "studentAnswers": {
+    "dataSource": "mongoatlas",
+    "public": true
+  },
+  "subjects": {
+    "dataSource": "mongoatlas",
+    "public": true
   }
 }

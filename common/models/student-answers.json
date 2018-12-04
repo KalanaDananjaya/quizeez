@@ -1,5 +1,5 @@
 {
-  "name": "marks",
+  "name": "studentAnswers",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -7,23 +7,17 @@
   },
   "properties": {
     "studentID": {
-      "type": "number",
+      "type": "any",
       "required": true
     },
     "paperID": {
       "type": "number",
       "required": true
     },
-    "marks": {
-      "type": "number",
-      "required": true
-    },
-    "year": {
-      "type": "number",
-      "required": true
-    },
-    "subject": {
-      "type": "string",
+    "markedAnswers": {
+      "type": [
+        "boolean"
+      ],
       "required": true
     }
   },
