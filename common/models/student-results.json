@@ -7,7 +7,7 @@
   },
   "properties": {
     "studentID": {
-      "type": "number",
+      "type": "string",
       "required": true
     },
     "paperID": {
